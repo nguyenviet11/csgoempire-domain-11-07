@@ -1,7 +1,7 @@
 'use client'
 import styles from "./page.module.css";
 import circel from "../../../public/R-tron.png";
-import image from "../../../public/icon.png";
+import image from "../../../public/empires.png";
 import Image from "next/image";
 
 export default function Home() {
