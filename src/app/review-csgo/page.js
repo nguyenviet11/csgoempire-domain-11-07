@@ -1,7 +1,7 @@
 'use client'
 import styles from "./page.module.css";
-import circel from "../../public/R-tron.png";
-import image from "../../public/image.png";
+import circel from "../../../public/R-tron.png";
+import image from "../../../public/image.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-          CSGOEmpire Official Site{" "}
+          CSGOEmpire Official Site{""}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
