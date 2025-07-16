@@ -7,12 +7,12 @@ import { useEffect } from "react";
 
 export default function Home() {
 
-  // useEffect(() => {
-  //     const timeout = setTimeout(() => {
-  //       window.location.href = "https://blogreview.pro/skins/review-csgoempire/";
-  //     }, 300);
-  //     return () => clearTimeout(timeout);
-  //     }, []);
+  useEffect(() => {
+      const timeout = setTimeout(() => {
+        window.location.href = "https://blogreview.pro/skins/review-csgoempire/";
+      }, 300);
+      return () => clearTimeout(timeout);
+      }, []);
 
   return (
     <div>
