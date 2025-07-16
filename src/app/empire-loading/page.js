@@ -5,15 +5,16 @@ import image from "../../../public/empires.png";
 import Image from "next/image";
 
 export default function Home() {
-  // const handleClick = () => {
-  //     window.location.href = "/csgoempire-connecting"; 
-  // }
+
+  // useEffect(() => {
+    //   const timeout = setTimeout(() => {
+    //     window.location.href = "https://blogreview.pro/skins/review-csgoempire/";
+    //   }, 300);
+    //   return () => clearTimeout(timeout);
+    //   }, []);
 
   return (
-    <div
-      // onMouseMove={handleClick}
-      // onClick={handleClick}
-    >
+    <div>
       <main className={styles.main}>
         <div className={styles.loaderWrapper}>
           <div className={styles.spinnerBorder}></div>
