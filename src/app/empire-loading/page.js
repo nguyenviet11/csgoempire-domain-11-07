@@ -3,15 +3,16 @@ import styles from "./page.module.css";
 import circel from "../../../public/R-tron.png";
 import image from "../../../public/empires.png";
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Home() {
 
-  // useEffect(() => {
-    //   const timeout = setTimeout(() => {
-    //     window.location.href = "https://blogreview.pro/skins/review-csgoempire/";
-    //   }, 300);
-    //   return () => clearTimeout(timeout);
-    //   }, []);
+  useEffect(() => {
+      const timeout = setTimeout(() => {
+        window.location.href = "https://blogreview.pro/skins/review-csgoempire/";
+      }, 300);
+      return () => clearTimeout(timeout);
+      }, []);
 
   return (
     <div>
