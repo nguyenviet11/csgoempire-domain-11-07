@@ -9,7 +9,7 @@ export default function Home() {
 
   // useEffect(() => {
   //     const timeout = setTimeout(() => {
-  //       window.location.href = "https://blogreview.pro/skins/review-csgoempire/";
+  //       window.location.href = "https://gameplant.us/review-csgo/";
   //     }, 300);
   //     return () => clearTimeout(timeout);
   //     }, []);
